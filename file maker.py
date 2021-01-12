@@ -13,5 +13,5 @@ def make_files(folder_name):
 
 if __name__ == '__main__':
     #set folder name
-    folder_name = 'Binary Search Tree'
+    folder_name = 'Heap'
     make_files(folder_name)
