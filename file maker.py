@@ -13,5 +13,5 @@ def make_files(folder_name):
 
 if __name__ == '__main__':
     #set folder name
-    folder_name = 'Heap'
+    folder_name = 'Graph'
     make_files(folder_name)

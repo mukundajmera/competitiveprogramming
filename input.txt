@@ -1,0 +1,5 @@
+BFS of graph
+DFS of Graph
+Find the number of islands
+Detect cycle in an undirected graph
+Detect cycle in a directed graph
