@@ -10,20 +10,35 @@ class Node:
 '''
 
 
+# iterative approch
 class BST:
-    def search(self, node, data):
+    def search(self, root, x):
         # code here
-        current = node
-        while current != None:
-            if current.data == data:
+        if root == None:
+            return False
+        curr = root
+        while curr != None:
+            if curr.data == x:
                 return True
-            # check for left
-            elif data < current.data:
-                current = current.left
-            # check for right
-            elif data > current.data:
-                current = current.right
+            elif x < curr.data:
+                curr = curr.left
+            elif x > curr.data:
+                curr = curr.right
         return False
+
+
+# recursive approch
+# class BST:
+#     def search(self, root, x):
+#         #code here
+#         if root == None:
+#             return False
+#         if root.data == x:
+#             return True
+#         elif x < root.data:
+#             return self.search(root.left,x)
+#         elif x > root.data:
+#             return self.search(root.right,x)
 
 
 # {
