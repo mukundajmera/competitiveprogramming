@@ -36,7 +36,20 @@ def insert(root, Key):
         else:
             parent.right = node
         return
-
+#recursive approch
+# def insert(root, Key):
+#     # code here
+#     if root == None:
+#         return Node(Key)
+#
+#     if root.data == Key:
+#         return root
+#
+#     if Key < root.data:
+#         root.left = insert(root.left, Key)
+#     elif Key > root.data:
+#         root.right = insert(root.right, Key)
+#     return root
 
 # {
 #  Driver Code Starts
